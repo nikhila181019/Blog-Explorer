@@ -1,16 +1,13 @@
-# blog_explorer
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/
+├── bloc/
+│   ├── blog_bloc.dart
+│   ├── blog_event.dart
+│   ├── blog_state.dart
+│   └── favorite_bloc.dart
+├── screens/
+│   ├── blog_detail_screen.dart
+│   └── blog_list_screen.dart
+├── services/
+│   └── api_service.dart
+└── widgets/
+└── blog_item.dart
